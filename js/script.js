@@ -1,10 +1,12 @@
-/*
+$(function () {
+    $(".scroll-section").css({ "height": $(window).height() });
+    $.scrollify({
+        section: ".scroll-section"
+    });
 
-My Custom JS
-============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
+    $(".scroll").click(function (e) {
+        e.preventDefault();
+        $.scrollify("move", $(this).attr("href"));
+    });
+});
