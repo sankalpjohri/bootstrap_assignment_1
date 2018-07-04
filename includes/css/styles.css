@@ -1,60 +1,50 @@
-/*
+/*Defining styles for the webpage*/
 
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-   
-   
-   
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-/* Portrait & landscape phone */
-@media (max-width: 480px) {
-	
+.navbar-custom {
+    background: black;
+    width: 100vw;
+    height: 10vh;
 }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	
+.main-video {
+    height: 90vh;
+    width: 100%;
+    object-fit: fill;
 }
 
-/* Large desktop */
-@media (min-width: 1200px) {
-	
+.main-video-container:hover {
+    opacity: 0.5;
+}
+
+.overlay {
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.8s ease;
+    color: #000000;
+}
+
+.overlay-text {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
 }
