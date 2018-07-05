@@ -80,6 +80,7 @@
 
 .hero-unit {
   background-image: url("../../img/model-s-hero.jpg");
+  background-size: cover;
 }
 
 .hero-image-title {
