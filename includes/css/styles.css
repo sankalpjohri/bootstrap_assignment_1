@@ -1,0 +1,122 @@
+/*Defining styles for the webpage*/
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Defining the style for the navbar*/
+.navbar-custom {
+  background: black;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+.navbar-text {
+  opacity: 1;
+}
+
+/*Defining the style for the footer*/
+.footer-custom {
+  background: black;
+  width: 100vw;
+  height: 5vh;
+}
+
+/*Styling for the main video*/
+.main-video {
+  height: 95vh;
+  width: 100%;
+  object-fit: fill;
+}
+
+.main-video-container:hover {
+  opacity: 0.5;
+}
+
+.overlay {
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.8s ease;
+  color: #000000;
+}
+
+.overlay-text {
+  color: red;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Styling for the feature sections*/
+
+.scroll-section {
+  width: 100vw;
+  height: 95vh;
+}
+
+/*Styling for the hero unit*/
+.hero-image {
+  height: 95vh;
+  width: 100vw;
+}
+
+.hero-unit {
+  background-image: url("../../img/model-s-hero.jpg");
+  background-size: cover;
+}
+
+.hero-image-title {
+  font-size: 40px;
+  padding-top: 15vh;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero-button {
+  height: 10%;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Styling for the feature elements*/
+.feature-image {
+  height: 95vh;
+}
+
+.feature-video {
+  height: 95vh;
+  object-fit: fill;
+}
+
+.feature-title {
+  color: #25485b;
+}
+
+.feature-description {
+  color: #25485b;
+}
+
+.section-title {
+  color: #25485b;
+  margin-top: 15vh;
+}
